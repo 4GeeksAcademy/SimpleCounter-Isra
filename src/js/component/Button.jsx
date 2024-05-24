@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { CiPlay1 } from "react-icons/ci";
 
 const Button = (props) => {
   return (
