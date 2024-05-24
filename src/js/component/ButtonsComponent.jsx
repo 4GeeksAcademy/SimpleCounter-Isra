@@ -9,8 +9,8 @@ import InputSet from "./InputSet";
 
 const ButtonsComponent = (props) => {
   return (
-    <div className="row">
-      <div className=" col-lg-10 container-fluid d-flex justify-content-center mb-5 ">
+    <div className="container-fluid">
+      <div className=" row  mb-5 justify-content-center ">
         <Button
           color="success"
           text="Play"

@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { CiPlay1 } from "react-icons/ci";
 
 const Button = (props) => {
   return (
     <button
-      className={`btn btn-${props.color} col-2 me-3 my-5`}
+      className={`btn btn-${props.color}  mx-3 my-5 col-lg-2 col-md-6 col-sm-12`}
       onClick={props.act}
     >
       {props.icono}
@@ -16,7 +17,7 @@ const Button = (props) => {
 Button.propTypes = {
   color: PropTypes.string,
   text: PropTypes.string,
-  icono: PropTypes.string,
+  icono: PropTypes.object,
   act: PropTypes.func,
 };
 export default Button;
