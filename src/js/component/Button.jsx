@@ -5,7 +5,7 @@ import { CiPlay1 } from "react-icons/ci";
 const Button = (props) => {
   return (
     <button
-      className={`btn btn-${props.color}  mx-3 my-5 col-lg-2 col-md-6 col-sm-12`}
+      className={`btn btn-${props.color}  m-3 col-lg-2 col-md-6 col-sm-12`}
       onClick={props.act}
     >
       {props.icono}

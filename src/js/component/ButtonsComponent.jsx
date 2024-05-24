@@ -9,7 +9,7 @@ import InputSet from "./InputSet";
 
 const ButtonsComponent = (props) => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-5">
       <div className=" row  mb-5 justify-content-center ">
         <Button
           color="success"
@@ -35,7 +35,8 @@ const ButtonsComponent = (props) => {
           icono={<FaUserClock className="me-2 fs-4" />}
           act={props.marcarTiempoButton}
         />
-
+      </div>
+      <div className="row">
         <InputSet />
       </div>
     </div>
