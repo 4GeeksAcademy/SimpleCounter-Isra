@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const InputSet = () => {
   return (
-    <div className="container d-flex justify-content-end">
+    <div className=" d-flex col-lg-6  col-sm-12 ">
       <input
         type="number"
         className="form-control mx-2 my-5 "

@@ -36,7 +36,7 @@ const ButtonsComponent = (props) => {
           act={props.marcarTiempoButton}
         />
       </div>
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         <InputSet />
       </div>
     </div>
